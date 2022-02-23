@@ -1,0 +1,171 @@
+/*ESTILOS DE PÁGINA Quiero recibir más información*/
+
+
+.titulo{
+    font-family: "Licorice", serif;
+    @include fuente(none, normal, normal, none);    
+    font-size: 4rem;
+    text-align:center;
+    color:$remolacha;
+    padding:3vh 0;
+}
+form{
+    margin: 5vh 0;
+    fieldset{
+        border:1px double $remolacha;
+        border-radius:8px;
+        background-color: $casiBlanco;
+        padding:5vh;
+        margin: 0 0 10% 10%;
+        legend{
+            font-weight:bold;
+            color:$salmon;
+            font-size:4.8vh;
+            margin-bottom:3vh;
+        }
+            label{
+                font-weight:bold;
+                color: $remolacha;
+                font-size:3.2vh;
+                padding:1vh;
+                vertical-align:middle;
+            }
+            input{
+                width:20vw;
+                height:5.6vh;
+                font-style:italic;
+                font-size:2rem;
+                color:$rosa;
+                border-radius:0.8vh;
+                border-color:$salmon;
+                border-style:solid;
+                vertical-align:middle;
+            }
+            .checkboxCuadrado{
+                margin-left:0;
+                width:3vw;
+            }
+            div{
+                #tuComentario{
+                    width:70%;
+                    color:$lila;
+                    border-color:$crema;
+                    border-style:solid;
+                    border-width:0.8vh;
+                    margin:5vh;
+                    
+                }
+            }
+            select{
+                background-color:$rosa;
+                color:white;
+                font-size:3.2vh;
+                text-align:center;
+                border-radius:0.7vh;                
+                border-color:$maiz;
+                border-style:solid;
+            }
+            .botonesForm{
+                @include fuente(none, normal, normal, none);
+                width:11vw;
+                height:7.5vh;
+                color:white;
+                font-size: 3.2vh;
+                display:inline;
+                background-color: $remolacha;
+                text-align:center;
+                padding:1.2vh;
+                border: 3px; border-style:solid; border-color:$rosa; border-radius:0.7vh;
+                margin:4.6vh;
+                transition: 200ms;
+                &:hover{
+                    height:8.5vh;
+                    font-size:3.8vh;
+                }
+            }
+    }
+}
+
+
+/*MEDIA QUERY PARA TABLET*/
+/*Estilos del main de Quiero recibir información para Tablet*/
+@media (min-width:481px) and (max-width:1024px){
+    .titulo{
+        font-size:10vh;
+        margin:0;
+        text-align: center;
+    }
+    form{
+        fieldset{
+            label{
+                width:28vw;
+            }
+            input{
+                width:30vw;
+            }
+            select{
+                width:30vw;
+            }
+            
+            .checkbox{
+                font-size:1.5rem;
+                width:50vw;
+                line-height: 3rem;
+            }
+            .botonesForm{
+                font-size: 1.5rem;
+                width:19vw;
+                margin:3vh 1rem 3vh 1rem;
+                &:hover{
+                    width: 20vh;               
+                }
+            }
+        }
+    }
+
+}
+/*MEDIA QUERY PARA SMARTPHONE*/
+/*Estilos del main de Quiero recibir información para Smartphone*/
+
+@media (max-width:480px){
+    .titulo{
+        font-size:10vh;
+        margin:0;
+        text-align: center;
+    }
+    form{
+        fieldset{
+            label{
+                width:50vw;
+            }
+            input{
+                width:50vw;
+                font-size:1rem;
+            }
+            div{
+                #tuComentario{
+                    width:90%;
+                    color:$lila;
+                    border-color:$crema;
+                    border-style:solid;
+                    border-width:0.8vh;
+                    margin:2vh auto;
+                    
+                }
+            }
+            select{
+                width:50vw;
+            }
+            
+            .checkbox{
+                font-size:1rem;
+                width:50vw;
+            }
+            .botonesForm{
+                font-size: 1.5rem;
+                width:40vw;
+                margin:3vh auto 3vh auto;
+        }
+    }
+    }
+}

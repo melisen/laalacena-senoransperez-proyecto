@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Le chant des Albatros';
+    src: url('LechantdesAlbatros.woff2') format('woff2'),
+        url('LechantdesAlbatros.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

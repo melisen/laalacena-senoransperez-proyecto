@@ -1,0 +1,18 @@
+@import "colores";
+
+/*MAPA para los h3 en el aside de la página Nosotros*/
+
+$map:(
+    nombre1:$naranja,
+    nombre2:$remolacha,
+    nombre3:$rosa,
+    nombre4:$naranjaFuerte,
+    nombre5:$rojo,
+    nombre6:$salmon
+);
+
+@each $clave, $valor in $map{
+    .#{$clave}{
+        color:$valor;
+    }
+}

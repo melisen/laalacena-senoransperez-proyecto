@@ -1,0 +1,153 @@
+@import "mixins";
+/*Estilos de main de página Index para Desktop*/
+
+main {
+  .imagenCocinamos {
+    margin: 10vh auto 15vh auto;
+  }
+  .recetasSemana {
+    font-weight: normal;
+    text-align: center;
+    font-size: clamp(2.5rem, 7vw, 5rem);
+    color: $remolacha;
+  }
+  .tituloRecetasAni {
+    animation-name: tituloani;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+  }
+  @keyframes tituloani {
+    0% {
+      color: $maiz;
+    }
+    20% {
+      color: $remolacha;
+    }
+    50% {
+      color: $naranja;
+    }
+    80% {
+      color: $rosa;
+    }
+    100% {
+      color: $maiz;
+    }
+  }
+
+  .carousel-caption{
+    background: linear-gradient(0deg, $marron, rgba(239, 247, 199, 0.15));
+  }
+  .divPlatos {
+    height: 8vh;
+    display: flex;
+    align-self: flex-start;
+  }
+  .postear {
+    @include fuente(none, bold, normal, none);
+    height: 6.5vh;
+    width: 40vh;
+    color: white;
+    font-size: 3vh;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    background-color: $naranjaFuerte;
+    padding: 0.9vh;
+    border-radius: 5px;
+    border-bottom: 0.3vh double $durazno;
+    border-right: 0.7vh double $durazno;
+    border-top: 0.7vh double $durazno;
+    
+  }
+  .tituloNuestrosCursos {
+    font-weight: bold;
+    font-size: 4rem;
+    color: $rosa;
+    text-align: center;
+    margin-top: 16vh;
+    margin-bottom: 5vh;
+  }
+  #trailerCursos {
+    justify-self: center;
+    margin-top: 4.8vh auto 4.8vh auto;
+  }
+  .botonVerCursos {
+    @include fuente(none, normal, normal, none);
+    width: 30vw;
+    font-size: 2rem;
+    text-align: center;
+    background-color:$bordo;
+    padding: 0.3rem 0.5rem;
+    border-radius: 1vh;
+    margin: 8vh 0 8vh 0;
+    a {
+      color: white;
+      font-weight: normal;
+      text-decoration: none;
+    }
+  }
+}
+
+/*MEDIA QUERY PARA TABLET*/
+@media (min-width: 481px) and (max-width: 1024px) {
+  /*Estilos main de página Index para Tablet*/
+
+  .recetasSemana {
+    font-size: 4vh;
+    text-align: center;
+  }
+    .divPlatos {
+    width: 400px;
+    margin: 0 auto 0 auto;
+    justify-content: space-between;
+    img {
+      width: 80px;
+    }
+  }
+  .postear {
+    width: 400px;
+    margin: 0 auto 10vh auto;
+  }
+  #trailerCursos{
+    width:450px;
+    height:300px;
+  }
+}
+
+/*MEDIA QUERY PARA SMARTPHONE*/
+@media (max-width: 480px) {
+  /*main  de la página Index para Smartphone*/
+  .imagenCocinamos {
+    width:350px;
+    margin: 8vh 0;
+  }
+  .recetasSemana {
+    font-size: 2vh;
+    text-align: center;
+    margin: 0;
+  }
+    .divPlatos {
+    width: 300px;
+    margin: 0 auto 0 auto;
+    justify-content: space-between;
+    img {
+      width: 60px;
+    }
+  }
+  .postear {
+    width: 300px;
+    margin: 0 auto 10vh auto;
+  }
+  #comunidad{
+    font-size: 2rem;
+  }
+  #trailerCursos {
+    width: 250px;
+    height: 200px;
+  }
+  .botonVerCursos{
+    a{font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+
+
+
+@mixin fuente($deco, $weight, $estilo, $vinietas){
+    text-decoration:$deco;
+    font-weight: $weight;
+    font-style:$estilo;
+    list-style-type:$vinietas;
+}

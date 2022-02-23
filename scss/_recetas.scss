@@ -1,0 +1,82 @@
+@import "quieroRecibir";
+
+
+  .tituloRecetas {
+    @include fuente(none, normal, normal, none);
+    font-family: "Licorice", serif;
+    color: $remolacha;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  #recetario {
+    .card {
+      h2 {
+        font-size: 1.4rem;
+        font-family: "Lato", sans-serif;
+        color: $rosa;
+      }
+      select{
+        background-color: $naranja;
+        color:white;
+        border-color:$crema;
+      }
+    }
+  }
+  
+  #banner {
+    margin-top: 1rem;
+    padding: 6rem 0;
+    background: linear-gradient(
+        0deg,
+        rgba(63, 63, 62, 0.8),
+        rgba(54, 54, 53, 0.3)
+      ),
+      url("https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+      h4{
+        @extend .tituloRecetas;
+        color:white;
+      }
+  }
+/*MEDIA QUERY PARA TABLET*/
+@media (min-width: 481px) and (max-width: 1024px) {
+  /*Estilos main de página Recetas para Tablet*/
+  
+}
+
+/*MEDIA QUERY PARA SMARTPHONE*/
+@media (max-width: 480px) {
+  /*Estilos del main de página Recetas para Smartphone*/
+  
+  #postear {
+    width: 35vh;
+    margin-bottom: 5vh;
+  }
+  .quieroAprender {
+    font-size: 4vh;
+  }
+}
+
+
+
+#recetario {
+  .card {
+    h2 {
+      font-size: 1.4rem;
+      font-family: "Lato", sans-serif;
+      color: $rosa;
+    }
+  }
+}
+
+#banner {
+  margin-top: 1rem;
+  padding: 6rem 0;
+  background: linear-gradient(
+      0deg,
+      rgba(63, 63, 62, 0.8),
+      rgba(54, 54, 53, 0.3)
+    ),
+    url("https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}

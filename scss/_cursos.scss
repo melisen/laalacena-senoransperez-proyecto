@@ -1,0 +1,166 @@
+/*ESTILOS PÁGINA Cursos*/
+
+.divCursos{
+    div{
+        article{
+            .nombreCurso{
+                color: rgb(153, 51, 102);
+                font-family: "Lato", serif;
+                font-size:6.4vh;
+                text-align:center;
+                margin-top:10vh;
+                
+            }
+            .verSmartphoneTablet{
+                display:none;
+            }
+            .masInfo{
+                color: rgb(252, 166, 90);
+                font-size:4vh;
+                font-family: "Lato", serif;
+                margin:0 10vh 3vh 0;
+                text-align:right;
+                transition:font-size 300ms;
+                &:hover{
+                    font-size:5vh;
+                }
+                span{
+                    img{
+                        height:3vh;
+                    }
+                }
+            }
+        }
+        #nuestrosCursosTit{
+            h2{
+                font-family:"Licorice", serif;
+                text-align:center;
+                font-size: 4rem;
+                color:rgb(153, 72, 113);
+                margin:5vh 0 1vh 0;
+                justify-self:center;
+            }
+    }
+    div{    
+        iframe{
+            width:90%;
+            display:flex;
+            justify-self:center;
+            margin:5vh auto 5vh auto;
+        }
+    }    
+}
+
+/*MEDIA QUERY PARA TABLET*/
+@media (min-width:481px) and (max-width:1024px){
+    .divCursos{
+        display:flex;
+        flex-direction:column;
+        .curso{
+            .nombreCurso{
+                font-size:3rem;
+                margin-top:6vh;        
+            }
+            .verSmartphoneTablet{
+                display:flex;
+                justify-content:center;
+                font-size:3vh;
+                color:rgb(252, 166, 90);
+                font-weight:bold;
+                margin-left:10vh;
+                img{
+                    height:3vh;
+                }
+            }
+            .masInfo{
+                display:none;
+            }
+        }
+        #nuestrosCursosTit{
+            h2{
+                font-family:"Licorice", serif;
+                text-align:center;
+                color:rgb(153, 72, 113);
+                margin:5vh 0 1vh 0;
+                justify-self:center;
+            }
+            .verSmartphoneTablet{
+                display:flex;
+                justify-content:center;
+                font-size:3vh;
+                color:rgb(252, 166, 90);
+                font-weight:bold;
+                margin-left:10vh;
+                img{
+                    height:3vh;
+                }
+            }
+            .masInfo{
+                display:none;
+            }
+        }
+        
+        
+    }
+}
+
+/*MEDIA QUERY PARA SMARTPHONE*/
+/*Estilos del main de página Cursos para Smartphone*/
+
+@media (max-width:480px){
+    .divCursos{
+        display:flex;
+        flex-direction:column;
+        .curso{
+            .nombreCurso{
+                font-size:3rem;
+                margin-top:6vh;        
+            }
+            .verSmartphoneTablet{
+                display:flex;
+                justify-content:center;
+                font-size:3vh;
+                color:rgb(252, 166, 90);
+                font-weight:bold;
+                margin-left:10vh;
+                img{
+                    height:3vh;
+                }
+            }
+            .masInfo{
+                display:none;
+            }
+        }
+        #nuestrosCursosTit{
+            h2{
+                font-family:"Licorice", serif;
+                text-align:center;
+                font-size: 3rem;
+                color:rgb(153, 72, 113);
+                margin:5vh 0;
+                justify-self:center;
+            }
+            .verSmartphoneTablet{
+                display:flex;
+                justify-content:center;
+                font-size:3vh;
+                color:rgb(252, 166, 90);
+                font-weight:bold;
+                margin-left:10vh;
+                img{
+                    height:3vh;
+                }
+            }
+            .masInfo{
+                display:none;
+            }
+        }
+        #nuestrosCursosVideo{
+            display:flex;
+            justify-self:center;
+            margin:5vh auto 5vh auto;
+        }
+        
+    }
+}
+}

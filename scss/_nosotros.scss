@@ -1,0 +1,140 @@
+@import "maps";
+@import "mixins";
+/*ESTILOS página Nosotros*/
+main{
+    section{
+        article{
+            margin:4vh 0 4vh 0;
+            background-color: $bordo;
+            padding:6.4vh;
+            margin-bottom:3vh;
+            h1{
+                @include fuente(none, normal, normal, none);
+                font-family: "Licorice", serif;
+                font-size: 4rem;
+                text-align:center;
+                color:white;
+            }
+            p{
+                width:100%;
+                height:auto;
+                color: white;
+                font-size:4vh;
+                font-family: "Lato-LightItalic";
+                text-align:justify;
+                line-height:6.4vh;
+                span{
+                    font-family: "Lato-LightItalic";
+                    font-weight:bold;
+                    font-size:4.8vh;
+                }
+            }
+        }
+    }
+    aside{
+        @include fuente(none, normal, normal, none);
+        article{
+            background-color: $crema;
+            padding:6.4vh;
+            margin:4vh 0 4vh 0;
+            h2{
+                font-family: "Licorice", serif;
+                color:map-get($map, nombre2);
+                font-size:4rem;
+                text-align: center;
+            }
+            div{
+                display:flex;
+                flex-direction:row;
+                align-items:center;
+                img{
+                    width:25%;
+                    margin:0 0 5vh 5vh;
+                }
+                h3{
+                    font-family: "Lato-LightItalic";
+                    display:inline;
+                    margin-left:5vh;
+                }
+            }
+        }
+    }
+}
+
+
+/*MEDIA QUERY PARA TABLET*/
+@media (min-width:481px) and (max-width:1024px){
+/*Estilos main de página Nosotros para Tablet*/
+section{
+    article{
+        h1{
+            font-size:7vh;
+            margin: 0 5vh 0 5vh;
+        }
+        p{
+            font-size:3.1vh;
+            line-height:3.5vh;
+            span{
+                font-size:3.5vh;
+            }
+        }
+    }
+}
+aside{
+    height:auto;
+    margin: 0 0 10vh 0;
+    justify-self:center;
+    align-items:center;
+    article{
+        h2{
+            font-size:8vh;
+            margin-bottom:4vh;
+        }
+        div{
+            margin-bottom:6vh;
+            h3{
+                font-size:4vh;
+            }
+            
+        }
+    }
+}
+
+}
+
+
+/*MEDIA QUERY Estilos del main de página Nosotros para Smartphone*/
+@media (max-width:480px){
+section{
+    article{
+        h1{
+            font-size:7vh;
+            margin: 0 5vh 0 5vh;
+        }
+        p{
+            font-size:3.1vh;
+            line-height:3.5vh;
+            span{
+                font-size:3.5vh;
+            }
+        }
+    }
+}
+aside{
+    height:auto;
+    width:auto;
+    margin: 0 0 10vh 0;
+    justify-self:center;
+    align-items: center;;
+    h2{
+        font-size:8vh;
+        margin-bottom:4vh;
+    }
+    div{
+        margin-bottom:6vh;
+        h3{
+            font-size:4vh;
+        }
+    }
+}
+}
