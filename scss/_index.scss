@@ -8,7 +8,7 @@ main {
   .recetasSemana {
     font-weight: normal;
     text-align: center;
-    font-size: clamp(2.5rem, 7vw, 5rem);
+    font-size: clamp(2.5rem, 7vw, 4rem);
     color: $remolacha;
   }
   .tituloRecetasAni {
@@ -74,13 +74,12 @@ main {
   }
   .botonVerCursos {
     @include fuente(none, normal, normal, none);
-    width: 30vw;
     font-size: 2rem;
     text-align: center;
     background-color:$bordo;
-    padding: 0.3rem 0.5rem;
+    padding: 0.5rem;
     border-radius: 1vh;
-    margin: 8vh 0 8vh 0;
+    margin: 8vh 0;
     a {
       color: white;
       font-weight: normal;
@@ -146,8 +145,5 @@ main {
     width: 250px;
     height: 200px;
   }
-  .botonVerCursos{
-    a{font-size: 1.2rem;
-    }
-  }
+  
 }

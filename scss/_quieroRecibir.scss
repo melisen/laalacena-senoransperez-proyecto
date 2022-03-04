@@ -16,25 +16,25 @@ form{
         border-radius:8px;
         background-color: $casiBlanco;
         padding:5vh;
-        margin: 0 0 10% 10%;
+        margin: 0 auto;
         legend{
             font-weight:bold;
             color:$salmon;
-            font-size:4.8vh;
+            font-size:2rem;
             margin-bottom:3vh;
         }
             label{
                 font-weight:bold;
                 color: $remolacha;
-                font-size:3.2vh;
+                font-size:1.5rem;
                 padding:1vh;
                 vertical-align:middle;
             }
             input{
+                font-size:1.5rem;
                 width:20vw;
                 height:5.6vh;
                 font-style:italic;
-                font-size:2rem;
                 color:$rosa;
                 border-radius:0.8vh;
                 border-color:$salmon;
@@ -47,6 +47,7 @@ form{
             }
             div{
                 #tuComentario{
+                    font-size:1.5rem;
                     width:70%;
                     color:$lila;
                     border-color:$crema;
@@ -59,7 +60,7 @@ form{
             select{
                 background-color:$rosa;
                 color:white;
-                font-size:3.2vh;
+                font-size:1.5rem;
                 text-align:center;
                 border-radius:0.7vh;                
                 border-color:$maiz;
@@ -91,7 +92,7 @@ form{
 /*Estilos del main de Quiero recibir información para Tablet*/
 @media (min-width:481px) and (max-width:1024px){
     .titulo{
-        font-size:10vh;
+        font-size:3rem;
         margin:0;
         text-align: center;
     }
@@ -129,7 +130,7 @@ form{
 
 @media (max-width:480px){
     .titulo{
-        font-size:10vh;
+        font-size:3rem;
         margin:0;
         text-align: center;
     }

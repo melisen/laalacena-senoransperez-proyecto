@@ -5,7 +5,7 @@
     @include fuente(none, normal, normal, none);
     font-family: "Licorice", serif;
     color: $remolacha;
-    font-size: 5rem;
+    font-size: 4rem;
     text-align: center;
     margin: 0;
   }
@@ -21,9 +21,10 @@
         background-color: $naranja;
         color:white;
         border-color:$crema;
+        }
       }
     }
-  }
+  
   
   #banner {
     margin-top: 1rem;
@@ -57,9 +58,6 @@
     font-size: 4vh;
   }
 }
-
-
-
 #recetario {
   .card {
     h2 {
@@ -69,7 +67,6 @@
     }
   }
 }
-
 #banner {
   margin-top: 1rem;
   padding: 6rem 0;

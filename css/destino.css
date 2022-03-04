@@ -123,7 +123,7 @@ main .imagenCocinamos {
 main .recetasSemana {
   font-weight: normal;
   text-align: center;
-  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-size: clamp(2.5rem, 7vw, 4rem);
   color: #9c1358; }
 
 main .tituloRecetasAni {
@@ -188,13 +188,12 @@ main .botonVerCursos {
   font-weight: normal;
   font-style: normal;
   list-style-type: none;
-  width: 30vw;
   font-size: 2rem;
   text-align: center;
   background-color: #5e0b34;
-  padding: 0.3rem 0.5rem;
+  padding: 0.5rem;
   border-radius: 1vh;
-  margin: 8vh 0 8vh 0; }
+  margin: 8vh 0; }
   main .botonVerCursos a {
     color: white;
     font-weight: normal;
@@ -242,9 +241,7 @@ main .botonVerCursos {
     font-size: 2rem; }
   #trailerCursos {
     width: 250px;
-    height: 200px; }
-  .botonVerCursos a {
-    font-size: 1.2rem; } }
+    height: 200px; } }
 
 /*ESTILOS DE PÁGINA Quiero recibir más información*/
 .titulo {
@@ -265,23 +262,23 @@ form {
     border-radius: 8px;
     background-color: #faf3e2;
     padding: 5vh;
-    margin: 0 0 10% 10%; }
+    margin: 0 auto; }
     form fieldset legend {
       font-weight: bold;
       color: #fc9869;
-      font-size: 4.8vh;
+      font-size: 2rem;
       margin-bottom: 3vh; }
     form fieldset label {
       font-weight: bold;
       color: #9c1358;
-      font-size: 3.2vh;
+      font-size: 1.5rem;
       padding: 1vh;
       vertical-align: middle; }
     form fieldset input {
+      font-size: 1.5rem;
       width: 20vw;
       height: 5.6vh;
       font-style: italic;
-      font-size: 2rem;
       color: #b64c81;
       border-radius: 0.8vh;
       border-color: #fc9869;
@@ -291,6 +288,7 @@ form {
       margin-left: 0;
       width: 3vw; }
     form fieldset div #tuComentario {
+      font-size: 1.5rem;
       width: 70%;
       color: #c4a4b4;
       border-color: #f7e1a9;
@@ -300,7 +298,7 @@ form {
     form fieldset select {
       background-color: #b64c81;
       color: white;
-      font-size: 3.2vh;
+      font-size: 1.5rem;
       text-align: center;
       border-radius: 0.7vh;
       border-color: #f7e198;
@@ -332,7 +330,7 @@ form {
 /*Estilos del main de Quiero recibir información para Tablet*/
 @media (min-width: 481px) and (max-width: 1024px) {
   .titulo {
-    font-size: 10vh;
+    font-size: 3rem;
     margin: 0;
     text-align: center; }
   form fieldset label {
@@ -356,7 +354,7 @@ form {
 /*Estilos del main de Quiero recibir información para Smartphone*/
 @media (max-width: 480px) {
   .titulo {
-    font-size: 10vh;
+    font-size: 3rem;
     margin: 0;
     text-align: center; }
   form fieldset label {
@@ -388,7 +386,7 @@ form {
   list-style-type: none;
   font-family: "Licorice", serif;
   color: #9c1358;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   margin: 0; }
 
@@ -451,23 +449,23 @@ form {
     border-radius: 8px;
     background-color: #faf3e2;
     padding: 5vh;
-    margin: 0 0 10% 10%; }
+    margin: 0 auto; }
     form fieldset legend {
       font-weight: bold;
       color: #fc9869;
-      font-size: 4.8vh;
+      font-size: 2rem;
       margin-bottom: 3vh; }
     form fieldset label {
       font-weight: bold;
       color: #9c1358;
-      font-size: 3.2vh;
+      font-size: 1.5rem;
       padding: 1vh;
       vertical-align: middle; }
     form fieldset input {
+      font-size: 1.5rem;
       width: 20vw;
       height: 5.6vh;
       font-style: italic;
-      font-size: 2rem;
       color: #b64c81;
       border-radius: 0.8vh;
       border-color: #fc9869;
@@ -477,6 +475,7 @@ form {
       margin-left: 0;
       width: 3vw; }
     form fieldset div #tuComentario {
+      font-size: 1.5rem;
       width: 70%;
       color: #c4a4b4;
       border-color: #f7e1a9;
@@ -486,7 +485,7 @@ form {
     form fieldset select {
       background-color: #b64c81;
       color: white;
-      font-size: 3.2vh;
+      font-size: 1.5rem;
       text-align: center;
       border-radius: 0.7vh;
       border-color: #f7e198;
@@ -518,7 +517,7 @@ form {
 /*Estilos del main de Quiero recibir información para Tablet*/
 @media (min-width: 481px) and (max-width: 1024px) {
   .titulo {
-    font-size: 10vh;
+    font-size: 3rem;
     margin: 0;
     text-align: center; }
   form fieldset label {
@@ -542,7 +541,7 @@ form {
 /*Estilos del main de Quiero recibir información para Smartphone*/
 @media (max-width: 480px) {
   .titulo {
-    font-size: 10vh;
+    font-size: 3rem;
     margin: 0;
     text-align: center; }
   form fieldset label {
@@ -590,7 +589,7 @@ form {
 main section article {
   margin: 4vh 0 4vh 0;
   background-color: #5e0b34;
-  padding: 6.4vh;
+  padding: 2.5rem;
   margin-bottom: 3vh; }
   main section article h1 {
     text-decoration: none;
@@ -598,21 +597,21 @@ main section article {
     font-style: normal;
     list-style-type: none;
     font-family: "Licorice", serif;
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     color: white; }
   main section article p {
     width: 100%;
     height: auto;
     color: white;
-    font-size: 4vh;
+    font-size: 1.5rem;
     font-family: "Lato-LightItalic";
     text-align: justify;
-    line-height: 6.4vh; }
+    line-height: 2.1rem; }
     main section article p span {
       font-family: "Lato-LightItalic";
       font-weight: bold;
-      font-size: 4.8vh; }
+      font-size: 2rem; }
 
 main aside {
   text-decoration: none;
@@ -626,7 +625,7 @@ main aside {
     main aside article h2 {
       font-family: "Licorice", serif;
       color: #9c1358;
-      font-size: 4rem;
+      font-size: 3rem;
       text-align: center; }
     main aside article div {
       display: flex;
@@ -666,14 +665,11 @@ main aside {
 
 /*MEDIA QUERY Estilos del main de página Nosotros para Smartphone*/
 @media (max-width: 480px) {
-  section article h1 {
-    font-size: 7vh;
-    margin: 0 5vh 0 5vh; }
-  section article p {
-    font-size: 3.1vh;
-    line-height: 3.5vh; }
-    section article p span {
-      font-size: 3.5vh; }
+  section article {
+    padding: 1rem; }
+    section article h1 {
+      font-size: 2rem;
+      margin: 0 5vh 0 5vh; }
   aside {
     height: auto;
     width: auto;
@@ -681,37 +677,32 @@ main aside {
     justify-self: center;
     align-items: center; }
     aside h2 {
-      font-size: 8vh;
       margin-bottom: 4vh; }
     aside div {
-      margin-bottom: 6vh; }
-      aside div h3 {
-        font-size: 4vh; } }
+      margin-bottom: 6vh; } }
 
 /*ESTILOS PÁGINA Cursos*/
 .divCursos {
-  /*MEDIA QUERY PARA TABLET*/
-  /*MEDIA QUERY PARA SMARTPHONE*/
-  /*Estilos del main de página Cursos para Smartphone*/ }
+  /*MEDIA QUERY PARA TABLET*/ }
   .divCursos div article .nombreCurso {
     color: #993366;
     font-family: "Lato", serif;
-    font-size: 6.4vh;
+    font-size: 2rem;
     text-align: center;
     margin-top: 10vh; }
   .divCursos div article .verSmartphoneTablet {
     display: none; }
   .divCursos div article .masInfo {
     color: #fca65a;
-    font-size: 4vh;
+    font-size: 1.5rem;
     font-family: "Lato", serif;
     margin: 0 10vh 3vh 0;
     text-align: right;
     transition: font-size 300ms; }
     .divCursos div article .masInfo:hover {
-      font-size: 5vh; }
+      font-size: 1.5rem; }
     .divCursos div article .masInfo span img {
-      height: 3vh; }
+      height: 1.5rem; }
   .divCursos div #nuestrosCursosTit h2 {
     font-family: "Licorice", serif;
     text-align: center;
@@ -729,17 +720,16 @@ main aside {
       display: flex;
       flex-direction: column; }
       .divCursos .divCursos .curso .nombreCurso {
-        font-size: 3rem;
         margin-top: 6vh; }
       .divCursos .divCursos .curso .verSmartphoneTablet {
         display: flex;
         justify-content: center;
-        font-size: 3vh;
+        font-size: 2rem;
         color: #fca65a;
         font-weight: bold;
         margin-left: 10vh; }
         .divCursos .divCursos .curso .verSmartphoneTablet img {
-          height: 3vh; }
+          height: 2rem; }
       .divCursos .divCursos .curso .masInfo {
         display: none; }
       .divCursos .divCursos #nuestrosCursosTit h2 {
@@ -748,54 +738,39 @@ main aside {
         color: #994871;
         margin: 5vh 0 1vh 0;
         justify-self: center; }
-      .divCursos .divCursos #nuestrosCursosTit .verSmartphoneTablet {
-        display: flex;
-        justify-content: center;
-        font-size: 3vh;
-        color: #fca65a;
-        font-weight: bold;
-        margin-left: 10vh; }
-        .divCursos .divCursos #nuestrosCursosTit .verSmartphoneTablet img {
-          height: 3vh; }
-      .divCursos .divCursos #nuestrosCursosTit .masInfo {
+      .divCursos .divCursos .masInfo {
         display: none; } }
-  @media (max-width: 480px) {
-    .divCursos .divCursos {
+
+/*MEDIA QUERY PARA SMARTPHONE*/
+/*Estilos del main de página Cursos para Smartphone*/
+@media (max-width: 480px) {
+  .divCursos {
+    display: flex;
+    flex-direction: column; }
+    .divCursos .curso .nombreCurso {
+      font-size: 2rem;
+      margin-top: 6vh; }
+    .divCursos .curso .verSmartphoneTablet {
       display: flex;
-      flex-direction: column; }
-      .divCursos .divCursos .curso .nombreCurso {
-        font-size: 3rem;
-        margin-top: 6vh; }
-      .divCursos .divCursos .curso .verSmartphoneTablet {
-        display: flex;
-        justify-content: center;
-        font-size: 3vh;
-        color: #fca65a;
-        font-weight: bold;
-        margin-left: 10vh; }
-        .divCursos .divCursos .curso .verSmartphoneTablet img {
-          height: 3vh; }
-      .divCursos .divCursos .curso .masInfo {
-        display: none; }
-      .divCursos .divCursos #nuestrosCursosTit h2 {
-        font-family: "Licorice", serif;
-        text-align: center;
-        font-size: 3rem;
-        color: #994871;
-        margin: 5vh 0;
-        justify-self: center; }
-      .divCursos .divCursos #nuestrosCursosTit .verSmartphoneTablet {
-        display: flex;
-        justify-content: center;
-        font-size: 3vh;
-        color: #fca65a;
-        font-weight: bold;
-        margin-left: 10vh; }
-        .divCursos .divCursos #nuestrosCursosTit .verSmartphoneTablet img {
-          height: 3vh; }
-      .divCursos .divCursos #nuestrosCursosTit .masInfo {
-        display: none; }
-      .divCursos .divCursos #nuestrosCursosVideo {
-        display: flex;
-        justify-self: center;
-        margin: 5vh auto 5vh auto; } }
+      justify-content: center;
+      font-size: 1.5rem;
+      color: #fca65a;
+      font-weight: bold;
+      margin-left: 10vh; }
+      .divCursos .curso .verSmartphoneTablet img {
+        height: 1.5rem; }
+    .divCursos .curso .masInfo {
+      display: none; }
+    .divCursos #nuestrosCursosTit h2 {
+      font-family: "Licorice", serif;
+      text-align: center;
+      font-size: 3rem;
+      color: #994871;
+      margin: 5vh 0;
+      justify-self: center; }
+    .divCursos #nuestrosCursosTit .masInfo {
+      display: none; }
+    .divCursos #nuestrosCursosVideo {
+      display: flex;
+      justify-self: center;
+      margin: 5vh auto 5vh auto; } }

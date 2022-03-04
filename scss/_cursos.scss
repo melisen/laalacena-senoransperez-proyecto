@@ -6,7 +6,7 @@
             .nombreCurso{
                 color: rgb(153, 51, 102);
                 font-family: "Lato", serif;
-                font-size:6.4vh;
+                font-size:2rem;
                 text-align:center;
                 margin-top:10vh;
                 
@@ -16,17 +16,17 @@
             }
             .masInfo{
                 color: rgb(252, 166, 90);
-                font-size:4vh;
+                font-size:1.5rem;
                 font-family: "Lato", serif;
                 margin:0 10vh 3vh 0;
                 text-align:right;
                 transition:font-size 300ms;
                 &:hover{
-                    font-size:5vh;
+                    font-size:1.5rem;
                 }
                 span{
                     img{
-                        height:3vh;
+                        height:1.5rem;
                     }
                 }
             }
@@ -58,18 +58,17 @@
         flex-direction:column;
         .curso{
             .nombreCurso{
-                font-size:3rem;
                 margin-top:6vh;        
             }
             .verSmartphoneTablet{
                 display:flex;
                 justify-content:center;
-                font-size:3vh;
+                font-size:2rem;
                 color:rgb(252, 166, 90);
                 font-weight:bold;
                 margin-left:10vh;
                 img{
-                    height:3vh;
+                    height:2rem;
                 }
             }
             .masInfo{
@@ -84,16 +83,6 @@
                 margin:5vh 0 1vh 0;
                 justify-self:center;
             }
-            .verSmartphoneTablet{
-                display:flex;
-                justify-content:center;
-                font-size:3vh;
-                color:rgb(252, 166, 90);
-                font-weight:bold;
-                margin-left:10vh;
-                img{
-                    height:3vh;
-                }
             }
             .masInfo{
                 display:none;
@@ -113,18 +102,18 @@
         flex-direction:column;
         .curso{
             .nombreCurso{
-                font-size:3rem;
+                font-size:2rem;
                 margin-top:6vh;        
             }
             .verSmartphoneTablet{
                 display:flex;
                 justify-content:center;
-                font-size:3vh;
+                font-size:1.5rem;
                 color:rgb(252, 166, 90);
                 font-weight:bold;
                 margin-left:10vh;
                 img{
-                    height:3vh;
+                    height:1.5rem;
                 }
             }
             .masInfo{
@@ -140,17 +129,6 @@
                 margin:5vh 0;
                 justify-self:center;
             }
-            .verSmartphoneTablet{
-                display:flex;
-                justify-content:center;
-                font-size:3vh;
-                color:rgb(252, 166, 90);
-                font-weight:bold;
-                margin-left:10vh;
-                img{
-                    height:3vh;
-                }
-            }
             .masInfo{
                 display:none;
             }
@@ -162,5 +140,4 @@
         }
         
     }
-}
 }
