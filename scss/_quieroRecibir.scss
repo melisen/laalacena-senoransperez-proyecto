@@ -15,7 +15,7 @@ form{
         border:1px double $remolacha;
         border-radius:8px;
         background-color: $casiBlanco;
-        padding:5vh;
+        padding:10px;
         margin: 0 auto;
         legend{
             font-weight:bold;
@@ -97,6 +97,7 @@ form{
         text-align: center;
     }
     form{
+        padding:5vh;
         fieldset{
             label{
                 width:28vw;
@@ -135,6 +136,7 @@ form{
         text-align: center;
     }
     form{
+        padding:5vh;
         fieldset{
             label{
                 width:50vw;

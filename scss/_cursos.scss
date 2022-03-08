@@ -4,12 +4,12 @@
     div{
         article{
             .nombreCurso{
-                color: rgb(153, 51, 102);
-                font-family: "Lato", serif;
-                font-size:2rem;
+                font-family:"Licorice", serif;
                 text-align:center;
-                margin-top:10vh;
-                
+                font-size: 3.5rem;
+                color:rgb(153, 72, 113);
+                margin:5vh 0 1vh 0;
+                justify-self:center;
             }
             .verSmartphoneTablet{
                 display:none;
@@ -31,16 +31,7 @@
                 }
             }
         }
-        #nuestrosCursosTit{
-            h2{
-                font-family:"Licorice", serif;
-                text-align:center;
-                font-size: 4rem;
-                color:rgb(153, 72, 113);
-                margin:5vh 0 1vh 0;
-                justify-self:center;
-            }
-    }
+        
     div{    
         iframe{
             width:90%;
@@ -75,18 +66,7 @@
                 display:none;
             }
         }
-        #nuestrosCursosTit{
-            h2{
-                font-family:"Licorice", serif;
-                text-align:center;
-                color:rgb(153, 72, 113);
-                margin:5vh 0 1vh 0;
-                justify-self:center;
-            }
-            }
-            .masInfo{
-                display:none;
-            }
+       
         }
         
         
@@ -102,8 +82,7 @@
         flex-direction:column;
         .curso{
             .nombreCurso{
-                font-size:2rem;
-                margin-top:6vh;        
+                font-size: 3rem;
             }
             .verSmartphoneTablet{
                 display:flex;
@@ -120,24 +99,7 @@
                 display:none;
             }
         }
-        #nuestrosCursosTit{
-            h2{
-                font-family:"Licorice", serif;
-                text-align:center;
-                font-size: 3rem;
-                color:rgb(153, 72, 113);
-                margin:5vh 0;
-                justify-self:center;
-            }
-            .masInfo{
-                display:none;
-            }
         }
-        #nuestrosCursosVideo{
-            display:flex;
-            justify-self:center;
-            margin:5vh auto 5vh auto;
-        }
+                }
         
-    }
-}
+
